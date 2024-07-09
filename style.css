@@ -212,7 +212,7 @@ iframe {
     font-weight: 800;
     text-align: left;
 }
-.target >a{
+.target >a , .next-target a{
     text-decoration: underline;
 }
 #target-1{
@@ -226,5 +226,22 @@ background: rgba(255, 76, 30, 0.05);
 }
 /* My Current Target style end here */
 /* My Next Target section style start here  */
+.next-target{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-target-contant{
+display: flex;
+align-items: center;
+gap: 24px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 40px;
+}
+.next-target-contant p{
+    margin: 20px 0;
+}
 
 /* My Next Target section style end here  */
